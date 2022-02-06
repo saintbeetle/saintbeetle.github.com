@@ -10,10 +10,13 @@ body {margin:0;font-family:helvetica;font-size:15px;color:#242424;}
   box-shadow:0 1px 10px rgba(0,0,0,0.1);
 }
 
+#search-logo {width:60px;height:39px;;float:left;}
+
 #search-bar {
   border:1px solid #d9d9d9;
   padding:10px 15px;
   border-radius:5em;
+  margin-left:70px;
   max-width:40vw;
   box-shadow:1px 1px 10px rgba(0,0,0,0.1);
 }
