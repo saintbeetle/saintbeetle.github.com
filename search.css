@@ -1,8 +1,8 @@
-body {margin:0;font-family:helvetica;font-size:15px;color:#242424;}
+body {margin:0;font-family:helvetica;font-size:14px;line-height:150%;color:#505050;}
 
 /* Generic Search Website Header */
 .search-header {
-  padding:15px;
+  padding:20px 15px 0 15px;
   border-bottom:1px solid #d9d9d9;
   position:sticky;
   background:#fff;
@@ -17,14 +17,26 @@ body {margin:0;font-family:helvetica;font-size:15px;color:#242424;}
   padding:10px 15px;
   border-radius:5em;
   margin-left:70px;
-  max-width:40vw;
+  max-width:38vw;
   box-shadow:1px 1px 10px rgba(0,0,0,0.1);
 }
 
 #sb-magnify {float:right;}
 
+/* Search Categories */
+
+#search-categories {
+  margin:10px 15px 0 70px;
+  font-size:13px;
+  margin-bottom:8px;
+}
+
+#search-categories span {margin:0 6px;text-transform:Capitalize;padding:0 10px 10px 5px;}
+#search-categories .fas {margin-right:2px;}
+#sc-selected {color:blue;border-bottom:2px solid blue;}
+
 /* Generic Search Website Results */
-.search-results {padding:15px 90px;width:40vw;min-height: calc(100vh - 155px);}
+.search-results {padding:15px 90px;width:40vw;min-height: calc(100vh - 195px);}
 
 .sr-wrapper {margin:35px 0;}
 .sr-title {font-size:20px;padding:8px 0;}
