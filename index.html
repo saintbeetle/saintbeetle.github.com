@@ -1,124 +1,106 @@
+<!DOCTYPE html>
 <html>
 	<head>
-	<link rel="stylesheet" href="https://saintbeetle.github.io/search.css">
-	<script src="https://kit.fontawesome.com/d3bbacc9f6.js" crossorigin="anonymous"></script>
+    <title>Swamp Dog arcade - Search</title>
+	  <script src="https://kit.fontawesome.com/d3bbacc9f6.js" crossorigin="anonymous"></script>
 	</head>
-<body>
-    <!-- Welcome to the Wesbite Source. Hopefully, I didn't do anything embarassing.-->
+	<body>
+    <!-- Peeking at the source, huh? This whole website is made with some pretty simple HTML/CSS. I'm a hobbyist who learned from Neopets when I was 12 and liberal use of Google. Hopefully, there's nothing too embarassing about my code! This is the first page I made, so I don't know if I'll put any easter eggs in the comment. 
+
+Happy hunting, just in case! -->
     
-    <!-- Start Search Bar -->
+    <!-- Start Header -->
 		<div class="search-header">
-			<div id="search-logo">
-			</div>
+      
+      <!-- Search Bar -->
 			<div id="search-bar">
-			gator adventure
+			Swamp Dog arcade
 				<span id="sb-magnify">
           <i class="fas fa-search"></i>
 				</span>
 			</div>
-			<!-- Fake Search Categories -->
-			<div id="search-categories">
-			  <span id="sc-selected"><i class="fas fa-search"></i> web</span>
-			  <span><i class="fas fa-image"></i> images</span>
-			  <span><i class="fas fa-video"></i> video</span>
-			  <span><i class="fas fa-newspaper"></i> news</span>
-			  <span><i class="fas fa-shopping-cart"></i> shopping</span>
-			</div>
+      
+      <!-- Search Categories (Web, Images, etc.) -->
+      <div id="search-categories">
+        <span id="sc-selected"><i class="fas fa-search"></i> web</span>
+        <span><i class="fas fa-image"></i> images</span>
+        <span><i class="fas fa-video"></i> video</span>
+        <span><i class="fas fa-newspaper"></i> news</span>
+        <span><i class="fas fa-shopping-cart"></i> shopping</span>
+      </div>
+      
 		</div>
-    <!-- End Search Bar -->
+    <!-- End Header -->
     
     <!-- Start Content -->
     <div class="search-results">
 
-      <!-- Start Search Result -->
+      <!-- Start Business Site Result -->
       <div class="sr-wrapper">
         <div class="sr-url">
-          https://www.gatoradventure.com
+          https://www.swampdogarcade.com
         </div>
         <div class="sr-title">
-          <a href="/GatorAdventure/">Gator Adventure Arcade & Aquarium</a>
+          <a href="/SwampDogArcade/">Swamp Dog Arcade & Aquarium</a>
+        </div>
+        <div class="sr-desc">
+          <b>Swamp Dog Arcade</b> & Aquarium is the perfect destination for family fun and birthdays. Whether you're enjoying games new and old or ...
+        </div>
+      </div>
+      <!-- End Business Site Result -->
+      
+      <!-- Start Off-Brand Wikipedia Result -->
+      <div class="sr-wrapper">
+        <div class="sr-url">
+          https://www.wikiencylopedia.com <span class="sub-url"><span class="sub-url-arrow">❯</span>  wiki <span class="sub-url-arrow">❯</span> Swamp_Dog_Arcade</span>
+        </div>
+        <div class="sr-title">
+          <a href="/WikiEncyclopedia/">Swamp Dog Arcade - WikiEncylopedia</a>
+        </div>
+        <div class="sr-desc">
+          <b>Swamp Dog Arcade</b> is an arcade and aquarium located in Jacksonville Beach, Florida. It was a pioneer in animatronics and family entertainment ...
+        </div>
+      </div>
+      <!-- End Off-Brand Wikipedia Result -->
+      
+      <!-- Start Fan Wiki Result -->
+      <div class="sr-wrapper">
+        <div class="sr-url">
+          https://swampdog.fanwiki.com <span class="sub-url"><span class="sub-url-arrow">❯</span>  wiki <span class="sub-url-arrow">❯</span> Swamp_Dog_Arcade_...</span>
+        </div>
+        <div class="sr-title">
+          <a href="/FanWiki/">Swamp Dog Arcade - FanWiki</a>
         </div>
         <div class="sr-desc">
           <b>Gator Adventure</b> Arcade & Aquarium is the perfect destination for family fun and birthdays. Whether you're enjoying games new and old or ...
         </div>
       </div>
-      <!-- End Search Result -->
+      <!-- End Fan Wiki Result -->
       
-            <!-- Start Search Result -->
+      <!-- Start Story Blog Result -->
       <div class="sr-wrapper">
         <div class="sr-url">
-          https://www.notwikipedia.com <span class="sub-url"><span class="sub-url-arrow">❯</span>  wiki <span class="sub-url-arrow">❯</span> gator_adventure</span>
+          https://nightshiftnobody.bloglr.com
         </div>
         <div class="sr-title">
-          <a href="/GatorAdventure/">Gator Adventure - Not Wikipedia</a>
+          <a href="/NightshiftNobody/">vibes & coffee - Bloglr</a>
         </div>
         <div class="sr-desc">
           <b>Gator Adventure</b> is an arcade and aquarium located in Jacksonville Beach, Florida. It was a pioneer in animatronics and family entertainment ...
         </div>
       </div>
-      <!-- End Search Result -->
+      <!-- End Story Blog Result -->
       
-            <!-- Start Search Result -->
-      <div class="sr-wrapper">
-        <div class="sr-url">
-          https://www.gatoradventure.com
-        </div>
-        <div class="sr-title">
-          <a href="/GatorAdventure/">Gator Adventure Arcade & Aquarium</a>
-        </div>
-        <div class="sr-desc">
-          <b>Gator Adventure</b> Arcade & Aquarium is the perfect destination for family fun and birthdays. Whether you're enjoying games new and old or ...
-        </div>
-      </div>
-      <!-- End Search Result -->
-      
-            <!-- Start Search Result -->
-      <div class="sr-wrapper">
-        <div class="sr-url">
-          https://www.notwikipedia.com <span class="sub-url"><span class="sub-url-arrow">❯</span>  wiki <span class="sub-url-arrow">❯</span> gator_adventure</span>
-        </div>
-        <div class="sr-title">
-          <a href="/GatorAdventure/">Gator Adventure - Not Wikipedia</a>
-        </div>
-        <div class="sr-desc">
-          <b>Gator Adventure</b> is an arcade and aquarium located in Jacksonville Beach, Florida. It was a pioneer in animatronics and family entertainment ...
-        </div>
-      </div>
-      <!-- End Search Result -->
-      
-            <!-- Start Search Result -->
-      <div class="sr-wrapper">
-        <div class="sr-url">
-          https://www.gatoradventure.com
-        </div>
-        <div class="sr-title">
-          <a href="/GatorAdventure/">Gator Adventure Arcade & Aquarium</a>
-        </div>
-        <div class="sr-desc">
-          <b>Gator Adventure</b> Arcade & Aquarium is the perfect destination for family fun and birthdays. Whether you're enjoying games new and old or ...
-        </div>
-      </div>
-      <!-- End Search Result -->
-      
-            <!-- Start Search Result -->
-      <div class="sr-wrapper">
-        <div class="sr-url">
-          https://www.notwikipedia.com <span class="sub-url"><span class="sub-url-arrow">❯</span>  wiki <span class="sub-url-arrow">❯</span> gator_adventure</span>
-        </div>
-        <div class="sr-title">
-          <a href="/GatorAdventure/">Gator Adventure - Not Wikipedia</a>
-        </div>
-        <div class="sr-desc">
-          <b>Gator Adventure</b> is an arcade and aquarium located in Jacksonville Beach, Florida. It was a pioneer in animatronics and family entertainment ...
-        </div>
-      </div>
-      <!-- End Search Result -->
+      <!-- More Results Bar -->
+      <div id="more-results">More Results</div>
       
     </div>
     
+
+    
     <!-- Footer -->
     <div id="results-footer">
-      <a href="/">Help</a> <a href="/">Send Feedback</a> <span>Privacy</span> <span>Terms</span>
+      <a href="/About">Help</a> <a href="/Contact">Send Feedback</a> <span>Privacy</span> <span>Terms</span>
     </div>
 	</body>
 </html>
