@@ -2,59 +2,66 @@ body {margin:0;font-family:helvetica;font-size:14px;line-height:150%;color:#5050
 
 /* Generic Search Website Header */
 .search-header {
-  padding:20px 15px 0 15px;
-  border-bottom:1px solid #d9d9d9;
-  position:sticky;
   background:#fff;
-  top:0;
   box-shadow:0 1px 10px rgba(0,0,0,0.1);
+  border-bottom:1px solid #d9d9d9;
+  padding:20px 15px 0 15px;
+  position:sticky;
+  top:0;
 }
 
-#search-logo {width:60px;height:39px;;float:left;}
-
 #search-bar {
+  line-height: 14px;
   border:1px solid #d9d9d9;
+  box-shadow:1px 1px 10px rgba(0,0,0,0.1);
+  max-width:38vw;
   padding:12px 15px;
   border-radius:5em;
   margin-left:70px;
-  max-width:38vw;
-  box-shadow:1px 1px 10px rgba(0,0,0,0.1);
-  line-height: 14px;
 }
 
 #sb-magnify {float:right;}
 
-/* Search Categories */
-
-#search-categories {
-  margin:10px 15px 0 70px;
-  font-size:13px;
-  margin-bottom:8px;
-}
-
-#search-categories span {margin:0 6px;text-transform:Capitalize;padding:0 10px 10px 5px;}
+/* Search Categories (Web, Images, Video, etc.) */
+#search-categories {font-size:13px;margin:10px 15px 0 70px;margin-bottom:8px;}
+#search-categories span {text-transform:Capitalize;margin:0 6px;padding:0 10px 10px 5px;}
+#search-categories span:hover {cursor:pointer;}
 #search-categories .fas {margin-right:2px;}
-#sc-selected {color:blue;border-bottom:2px solid blue;}
+#sc-selected {color:#1a0dab;border-bottom:2px solid #1a0dab;}
 
 /* Generic Search Website Results */
-.search-results {padding:15px 90px;width:40vw;min-height: calc(100vh - 195px);}
+.search-results {width:40vw;min-height: calc(100vh - 195px);padding:15px 90px;}
 
+/* Wraps the individual results */
 .sr-wrapper {margin:35px 0;}
-.sr-title {font-size:20px;padding:8px 0;}
 
-.sr-title a {text-decoration:none;}
+/* "Site" Link */
+.sr-title {font-size:20px;padding:8px 0;}
+.sr-title a {text-decoration:none;color:#1a0dab;}
 .sr-title a:hover {text-decoration:underline;}
 
 .sub-url {color:#b1b1b1;}
-
 .sub-url-arrow {font-size:10px;}
 
-/* Footer Styling */
-#results-footer {background:#f7f7f7;border-top:1px solid #d9d9d9;padding:20px 80px;font-size:12px;}
-
-#results-footer span, #results-footer a {
-  color:grey;
-  text-decoration:none;
-  margin:10px;
+/* More Results Bar */
+#more-results {
+  background:#d3d3d3;
+  padding:10px;
+  text-align:center;
+  border-radius:10px;
+  font-weight:bold;
 }
-#results-footer a:hover {color:black;}
+
+#more-results:hover {background:#b1b1b1;}
+
+/* Footer */
+#results-footer {
+  font-size:12px;
+  background:#f7f7f7;
+  border-top:1px solid #d9d9d9;
+  padding:20px 80px;
+}
+
+/* Footer Fake Links */
+#results-footer span, #results-footer a {color:#a1a1a1;text-decoration:none;margin:10px;}
+#results-footer a:hover, #results-footer span:hover {color:#858585;cursor:pointer;}
