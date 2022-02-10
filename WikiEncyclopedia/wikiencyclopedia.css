@@ -123,6 +123,8 @@ a:hover {text-decoration:underline;}
   float:right;
 }
 
+#wiki-infobox table {font-size:12px;}
+
 #wiki-infobox td {vertical-align:top;}
 .wi-left {width:30%;}
 
